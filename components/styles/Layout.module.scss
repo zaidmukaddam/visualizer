@@ -1,0 +1,44 @@
+.container {
+  min-height: 100vh;
+  max-width: 85rem;
+  margin: 0 auto;
+
+  @media screen and (min-width: 80rem) {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
+}
+
+.header {
+  max-width: 85rem;
+}
+
+.main {
+  flex: 6;
+  max-width: 100%;
+
+  > * {
+    max-width: 36rem;
+  }
+
+  @media screen and (min-width: 768px) {
+    > * {
+      width: 100%;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    > section {
+      max-width: 100%;
+      width: auto;
+
+      @media screen and (min-width: 1280px) {
+        max-width: calc(100% - 8rem);
+      }
+    }
+  }
+
+  @media screen and (min-width: 80rem) {
+    grid-column: 2;
+  }
+}

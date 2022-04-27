@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply text-paragraph;
+  padding: 0;
+  margin: 0;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1 {
+  line-height: 1.2;
+}
+
+.result {
+  @apply bg-highlight;
+}
+
+.not-found {
+  @apply bg-tertiary;
+}
+
+.arrow-down {
+  bottom: -1em;
+}
+
+.highlight {
+  @apply bg-gray-500;
+}
+
+.svg {
+  min-height: 200px;
+}
+
+.debug {
+  @apply border-4 border-stroke;
+}
