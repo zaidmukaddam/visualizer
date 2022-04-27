@@ -12,7 +12,7 @@ export default function AboutPage() {
           What is this?
         </h1>
         <p className="w-full mb-4">
-          {`I'm a huge fan of Design Guru's Grokking the Coding Interview course. I love how it emphasizes patterns rather than data structures. Yet, as a student who was never good at algorithms, I had a hard time following some of the patterns that were described.`}
+          {`I'm a huge fan of Design Guru's Grokking the Coding Interview course. I love how it emphasizes patterns rather than data structures.`}
         </p>
         <p className="w-full">
           {`Despite being given the solution, I would often ask myself "so what's actually going on here? What does each step of the function actually do?"`}
